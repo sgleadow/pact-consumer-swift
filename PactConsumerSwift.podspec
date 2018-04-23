@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.frameworks   = 'XCTest'
 
   s.dependency 'Alamofire', '~> 4.5'
-  s.dependency 'BrightFutures', '~> 6.0'
+  s.dependency 'BrightFutures', '~> 6.0.1'
   s.dependency 'Nimble', '~> 7.0'
   s.dependency 'Quick', '~> 1.1'
 end
