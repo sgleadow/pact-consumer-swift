@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "PactConsumerSwift"
   s.module_name  = "PactConsumerSwift"
-  s.version      = "0.5.1"
+  s.version      = "0.5.2"
   s.summary      = "A Swift / ObjeciveC DSL for creating pacts."
   s.license      = { :type => 'MIT' }
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.frameworks   = 'XCTest'
 
   s.dependency 'Alamofire', '~> 4.5'
-  s.dependency 'BrightFutures', :git => 'https://github.com/Thomvis/BrightFutures', :tag => '6.0.1'
+  s.dependency 'BrightFutures', :git => 'https://github.com/Thomvis/BrightFutures', :branch => 'master'
   s.dependency 'Nimble', '~> 7.0'
   s.dependency 'Quick', '~> 1.1'
 end
